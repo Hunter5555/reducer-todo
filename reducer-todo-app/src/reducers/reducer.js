@@ -24,7 +24,7 @@ export const initialState = {
                 ]
              };
 
-        case "TOGGLE_COMPLETED":
+        case "TOGGLE_COMPLETE":
             return { ...state, 
 
                 todos: state.todos.map( todo =>

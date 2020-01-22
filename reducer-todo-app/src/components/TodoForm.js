@@ -24,6 +24,7 @@ const TodoForm = props => {
       <button type="submit">Add Todo</button>
       <button onClick={handleClear}>Clear Completed</button>
     </form>
+    
   );
 };
 
